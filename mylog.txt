@@ -1,0 +1,58 @@
+2020-10-26 23:28:14.483  INFO 19816 --- [main] c.e.IKUBProject.IkubProjectApplication   : Starting IkubProjectApplication on DESKTOP-Q2IU2PU with PID 19816 (C:\Users\Kristina\Desktop\IKUBProject\IKUBProject\target\classes started by Kristina in C:\Users\Kristina\Desktop\IKUBProject\IKUBProject)
+2020-10-26 23:28:14.491  INFO 19816 --- [main] c.e.IKUBProject.IkubProjectApplication   : No active profile set, falling back to default profiles: default
+2020-10-26 23:28:16.139  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-26 23:28:16.268  INFO 19816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118ms. Found 2 JPA repository interfaces.
+2020-10-26 23:28:17.202  INFO 19816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 23:28:17.224  INFO 19816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 23:28:17.224  INFO 19816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 23:28:17.481  INFO 19816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 23:28:17.483  INFO 19816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2926 ms
+2020-10-26 23:28:17.771  INFO 19816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 23:28:17.848  INFO 19816 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-26 23:28:17.886  WARN 19816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-26 23:28:17.957  INFO 19816 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-26 23:28:18.129  INFO 19816 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-26 23:28:18.238  INFO 19816 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 23:28:18.333  INFO 19816 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@106b014e, org.springframework.security.web.context.SecurityContextPersistenceFilter@64f9f455, org.springframework.security.web.header.HeaderWriterFilter@53d9826f, org.springframework.security.web.authentication.logout.LogoutFilter@66a53104, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@712ac7e6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4733f6f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64387c17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4dc7cd1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33188612, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c369270, org.springframework.security.web.session.SessionManagementFilter@5f59ea8c, org.springframework.security.web.access.ExceptionTranslationFilter@1280682, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1624775]
+2020-10-26 23:28:18.803  INFO 19816 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 23:28:18.837  INFO 19816 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-26 23:28:19.302  INFO 19816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 23:28:19.302  INFO 19816 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-26 23:28:19.742  INFO 19816 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-26 23:28:19.750  INFO 19816 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-26 23:28:19.942  INFO 19816 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-26 23:28:19.952  INFO 19816 --- [main] c.e.IKUBProject.IkubProjectApplication   : Started IkubProjectApplication in 6.094 seconds (JVM running for 7.694)
+2020-10-26 23:28:28.532  INFO 19816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 23:28:28.534  INFO 19816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-26 23:28:28.549  INFO 19816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-10-26 23:28:29.172  WARN 19816 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [534] milliseconds.
+2020-10-26 23:28:56.259  INFO 19816 --- [http-nio-8080-exec-3] c.e.I.Service.EmployeeServiceImpl        : Department updated successfully:com.example.IKUBProject.Entity.Department@73499bff
+2020-10-26 23:30:51.417  INFO 18696 --- [main] c.e.IKUBProject.IkubProjectApplication   : Starting IkubProjectApplication on DESKTOP-Q2IU2PU with PID 18696 (C:\Users\Kristina\Desktop\IKUBProject\IKUBProject\target\classes started by Kristina in C:\Users\Kristina\Desktop\IKUBProject\IKUBProject)
+2020-10-26 23:30:51.423  INFO 18696 --- [main] c.e.IKUBProject.IkubProjectApplication   : No active profile set, falling back to default profiles: default
+2020-10-26 23:30:52.998  INFO 18696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-26 23:30:53.115  INFO 18696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces.
+2020-10-26 23:30:54.128  INFO 18696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-10-26 23:30:54.145  INFO 18696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-26 23:30:54.145  INFO 18696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-26 23:30:54.344  INFO 18696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-26 23:30:54.344  INFO 18696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2805 ms
+2020-10-26 23:30:54.574  INFO 18696 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 23:30:54.648  INFO 18696 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-26 23:30:54.673  WARN 18696 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-26 23:30:54.737  INFO 18696 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-26 23:30:54.940  INFO 18696 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-26 23:30:55.039  INFO 18696 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-26 23:30:55.113  INFO 18696 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@649f25f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@d499c13, org.springframework.security.web.header.HeaderWriterFilter@50ab56e2, org.springframework.security.web.authentication.logout.LogoutFilter@7161457, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@106b014e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@58aa10f4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2e62ead7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d6c12d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71b6172c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b98b809, org.springframework.security.web.session.SessionManagementFilter@74834afd, org.springframework.security.web.access.ExceptionTranslationFilter@5d5a51b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fbe26da]
+2020-10-26 23:30:55.632  INFO 18696 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-26 23:30:55.654  INFO 18696 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-10-26 23:30:56.124  INFO 18696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-26 23:30:56.126  INFO 18696 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-26 23:30:56.590  INFO 18696 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-26 23:30:56.598  INFO 18696 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-26 23:30:56.822  INFO 18696 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-26 23:30:56.871  INFO 18696 --- [main] c.e.IKUBProject.IkubProjectApplication   : Started IkubProjectApplication in 6.087 seconds (JVM running for 7.72)
+2020-10-26 23:31:11.652  INFO 18696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-26 23:31:11.653  INFO 18696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-26 23:31:11.673  INFO 18696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-10-26 23:31:12.392  WARN 18696 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [626] milliseconds.
+2020-10-26 23:31:27.004  INFO 18696 --- [http-nio-8080-exec-4] c.e.I.Service.EmployeeServiceImpl        : Department updated successfully:Department{departmentid=7, name='test', createdtime=2020-10-26 23:14:50.0, employeeSet=[]}
