@@ -72,7 +72,6 @@ public class Department {
                 "departmentid=" + departmentid +
                 ", name='" + name + '\'' +
                 ", createdtime=" + createdtime +
-                ", employeeSet=" + employeeSet +
                 '}';
     }
 }
